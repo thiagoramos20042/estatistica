@@ -70,6 +70,7 @@ if nome and email_usuario:
             "B) O valor que aparece com mais frequência em um conjunto de dados.",
             "C) A soma de todos os valores dividida pelo número de observações.",
             "D) O valor central de um conjunto de dados ordenados."
+            
         ],
             "2. Explique a diferença entre moda e mediana.": [
             "A) A moda é o valor mais frequente, enquanto a mediana é a soma de todos os valores dividida pelo número de observações.",
