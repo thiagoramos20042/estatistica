@@ -147,7 +147,7 @@ if nome and email_usuario:
         st.write(pergunta)
         resposta = st.radio(label="", options=alternativas, key=pergunta)
         respostas.append(resposta)
-        st.markdown("<br>", unsafe_allow_html=True)  # Adiciona um espaçamento entre as perguntas
+        st.markdown("<br>", unsafe_allow_html=True)  # Adiciona um espaçamento entre as perguntas, e não entre as alternativas
 
     if st.button("Finalizar Teste"):
         # Contar acertos
