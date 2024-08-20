@@ -72,6 +72,7 @@ if nome and email_usuario:
             "D) O valor central de um conjunto de dados ordenados."
         ],
         
+        
         "2. Explique a diferença entre moda e mediana.": [
             "A) A moda é o valor mais frequente, enquanto a mediana é a soma de todos os valores dividida pelo número de observações.",
             "B) A moda é a média dos valores, enquanto a mediana é o valor central do conjunto de dados.",
