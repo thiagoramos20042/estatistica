@@ -71,54 +71,63 @@ if nome and email_usuario:
             "C) A soma de todos os valores dividida pelo número de observações.",
             "D) O valor central de um conjunto de dados ordenados."
         ],
+        
         "2. Explique a diferença entre moda e mediana.": [
             "A) A moda é o valor mais frequente, enquanto a mediana é a soma de todos os valores dividida pelo número de observações.",
             "B) A moda é a média dos valores, enquanto a mediana é o valor central do conjunto de dados.",
             "C) A moda é o valor mais frequente, enquanto a mediana é o valor central em um conjunto de dados ordenados.",
             "D) A moda e a mediana sempre coincidem em um conjunto de dados."
         ],
+        
         "3. O que é uma distribuição normal e quais são suas características principais?": [
             "A) Uma distribuição com múltiplos picos e uma forma assimétrica.",
             "B) Uma distribuição simétrica em torno da média, com caudas que se estendem ao infinito.",
             "C) Uma distribuição onde a mediana é sempre maior que a média.",
             "D) Uma distribuição que nunca apresenta dados abaixo da média."
         ],
+        
         "4. Como é definido o desvio padrão e o que ele representa em um conjunto de dados?": [
             "A) A raiz quadrada da média dos valores do conjunto de dados.",
             "B) A medida que indica a dispersão dos valores em relação à moda.",
             "C) A raiz quadrada da variância, indicando a dispersão dos valores em relação à média.",
             "D) A soma dos valores absolutos das diferenças em relação à mediana."
         ],
+        
         "5. Qual a diferença entre uma amostra e uma população em um estudo estatístico?": [
             "A) Amostra é o conjunto completo de dados, enquanto população é um subconjunto dos dados.",
             "B) População é o conjunto completo de elementos, enquanto amostra é um subconjunto representativo da população.",
             "C) População é sempre maior que a amostra em qualquer estudo.",
             "D) Amostra é a média da população."
         ],
+        
         "6. O que é a variância e como ela está relacionada ao desvio padrão?": [
             "A) A variância é a raiz quadrada do desvio padrão.",
             "B) A variância é a média dos valores em um conjunto de dados.",
             "C) A variância é a média dos quadrados das diferenças dos valores em relação à média, e o desvio padrão é a raiz quadrada da variância.",
             "D) A variância sempre é menor que o desvio padrão."
         ],
+        
         "7. Explique o conceito de correlação e como ele pode ser interpretado.": [
             "A) A correlação mede a força e a direção da relação linear entre duas variáveis.",
             "B) A correlação mede a diferença absoluta entre duas variáveis.",
             "C) A correlação sempre é positiva, indicando uma relação linear.",
             "D) A correlação é o quadrado da média dos valores em um conjunto de dados."
         ],
+        
         "8. O que é um intervalo de confiança e como ele é utilizado?": [
             "A) Um intervalo de confiança é a média dos valores em um conjunto de dados.",
             "B) Um intervalo de confiança é uma faixa de valores que contém o verdadeiro parâmetro da população com uma certa probabilidade.",
             "C) Um intervalo de confiança é sempre igual ao desvio padrão.",
             "D) Um intervalo de confiança indica a moda de um conjunto de dados."
         ],
+        
         "9. Qual a diferença entre um teste de hipótese unilateral e bilateral?": [
             "A) Um teste unilateral testa se um parâmetro é maior ou menor que um valor específico, enquanto um teste bilateral testa se o parâmetro é diferente de um valor específico.",
             "B) Um teste unilateral sempre rejeita a hipótese nula.",
             "C) Um teste bilateral testa apenas se o parâmetro é maior que um valor específico.",
             "D) Um teste bilateral nunca rejeita a hipótese nula."
         ],
+        
         "10. O que significa um p-valor em um teste de hipóteses e como ele é utilizado para tomar decisões?": [
             "A) O p-valor é a probabilidade de que a hipótese alternativa seja verdadeira.",
             "B) O p-valor é a probabilidade de obter um resultado mais extremo, dado que a hipótese nula é verdadeira.",
