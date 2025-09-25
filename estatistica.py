@@ -182,3 +182,4 @@ if st.button("Ver Resultados Armazenados"):
             st.write("Nenhum resultado armazenado até o momento.")
     else:
         st.error("Senha incorreta. Acesso negado.")
+        st.write(f"Você acertou {acertos} de {len(respostas)} perguntas.")
