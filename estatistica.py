@@ -183,3 +183,8 @@ if st.button("Ver Resultados Armazenados"):
     else:
         st.error("Senha incorreta. Acesso negado.")
         st.write(f"Você acertou {acertos} de {len(respostas)} perguntas.")
+        percentual_acerto = (acertos / len(respostas)) * 100
+        st.write("Suas respostas foram:")
+        for i, resposta in enumerate(respostas):
+            st.write(f"{i+1}. {resposta}")
+        
