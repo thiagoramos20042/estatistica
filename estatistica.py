@@ -201,4 +201,8 @@ if st.button("Ver Resultados Armazenados"):
             st.write("Nenhum resultado armazenado até o momento.")
             st.write(f"Você acertou {acertos} de {len(respostas)} perguntas.")
             percentual_acerto = (acertos / len(respostas)) * 100
+            st.write("Suas respostas foram:")
+            for i, resposta in enumerate(respostas):
+                st.write(f"{i+1}. {resposta}")
+                st.write(f"Resposta correta: {respostas_corretas[i]}")
         
