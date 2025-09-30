@@ -187,4 +187,5 @@ if st.button("Ver Resultados Armazenados"):
         st.write("Suas respostas foram:")
         for i, resposta in enumerate(respostas):
             st.write(f"{i+1}. {resposta}")
+            st.write(f"Resposta correta: {respostas_corretas[i]}")
         
