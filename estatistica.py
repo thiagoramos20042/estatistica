@@ -188,4 +188,15 @@ if st.button("Ver Resultados Armazenados"):
         for i, resposta in enumerate(respostas):
             st.write(f"{i+1}. {resposta}")
             st.write(f"Resposta correta: {respostas_corretas[i]}")
+    if senha == senha_correta:
+        resultados = ler_resultados()
+
+        if resultados:
+            st.header("Resultados Armazenados")
+            # Converter para um DataFrame do pandas para melhor visualização
+            colunas = ['ID', 'Nome', 'Email', 'Respostas', 'Acertos', 'Percentual de Acerto']
+            df = pd.DataFrame(resultados, columns=colunas)
+            st.dataframe(df)
+        else:
+            st.write("Nenhum resultado armazenado até o momento.")
         
