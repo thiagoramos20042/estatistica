@@ -199,4 +199,6 @@ if st.button("Ver Resultados Armazenados"):
             st.dataframe(df)
         else:
             st.write("Nenhum resultado armazenado até o momento.")
+            st.write(f"Você acertou {acertos} de {len(respostas)} perguntas.")
+            percentual_acerto = (acertos / len(respostas)) * 100
         
