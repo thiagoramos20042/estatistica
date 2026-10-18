@@ -1,58 +1,44 @@
-# Teste Básico de Estatística com Armazenamento em Banco de Dados
+# Estatística | Quiz e consulta de resultados
 
-## Descrição
+Teste interativo de conceitos estatísticos com cadastro, pontuação e consulta de resultados armazenados.
 
-Esta aplicação interativa, desenvolvida com **Streamlit**, aplica testes básicos de estatística aos usuários e armazena os resultados em um banco de dados **SQLite** para futuras análises. O acesso aos resultados é protegido por senha, garantindo segurança e privacidade.
+**Aplicações Python** · Aplicação Streamlit
 
----
+[← Portfólio de Thiago Oliveira](https://github.com/thiagoramos20042/thiagoramos20042) · [Catálogo de projetos](https://github.com/thiagoramos20042/thiagoramos20042/blob/main/PROJETOS.md)
 
-## Funcionalidades
+## Objetivo
 
-### Registro e Teste
-- **Registro do Usuário**: Nome e email são obrigatórios para iniciar o teste.
-- **Perguntas**: O teste possui **10 perguntas** de múltipla escolha sobre conceitos fundamentais de estatística.
-- **Armazenamento de Resultados**: As respostas, número de acertos e percentual de acertos são salvos no banco de dados.
+Aplicar um questionário e organizar as respostas em uma base local para acompanhamento.
 
-### Consulta aos Resultados
-- **Proteção por Senha**: Apenas usuários com a senha correta podem acessar os resultados armazenados.
-- **Exibição Tabular**: Resultados são exibidos em formato tabular com suporte da biblioteca `pandas`.
+## O que você encontra
 
----
+- Cadastro do participante por nome e e-mail.
+- Correção do questionário e cálculo do percentual de acertos.
+- Armazenamento em SQLite e tela de consulta aos resultados.
 
-## Estrutura do Projeto
+## Tecnologias
 
-### Banco de Dados
+Python · Streamlit · pandas · SQLite
 
-O banco de dados **SQLite** (`resultados.db`) contém uma tabela chamada `resultados` com os seguintes campos:
+## Arquivos principais
 
-| Campo              | Tipo      | Descrição                                      |
-|---------------------|-----------|-----------------------------------------------|
-| `id`               | INTEGER   | Identificador único (chave primária).         |
-| `nome`             | TEXT      | Nome do usuário.                              |
-| `email`            | TEXT      | Email do usuário.                             |
-| `respostas`        | TEXT      | Respostas fornecidas (armazenadas como string).|
-| `acertos`          | INTEGER   | Número de respostas corretas.                 |
-| `percentual_acerto`| REAL      | Percentual de acerto no teste.                |
+| Arquivo | Conteúdo |
+| --- | --- |
+| [estatistica.py](estatistica.py) | Interface, questionário e persistência dos resultados. |
 
-### Principais Arquivos
+## Como explorar
 
-- `main.py`: Arquivo principal da aplicação contendo a interface e as funcionalidades.
-- `resultados.db`: Banco de dados SQLite para armazenar os resultados dos testes.
-
----
-
-## Tecnologias Utilizadas
-
-- **Python**: Linguagem principal.
-- **Streamlit**: Para a criação de interface interativa.
-- **SQLite**: Para armazenamento de dados.
-- **Pandas**: Para manipulação e exibição de dados em formato tabular.
-
----
-
-## Pré-requisitos
-
-Certifique-se de que as seguintes bibliotecas estão instaladas no seu ambiente:
+Na raiz do repositório, em um ambiente Python separado:
 
 ```bash
-pip install streamlit pandas
+python -m pip install streamlit pandas
+python -m streamlit run estatistica.py
+```
+
+## Contexto do projeto
+
+O arquivo de entrada é estatistica.py. O banco resultados.db é criado pelo script. A consulta utiliza a verificação de senha implementada no protótipo.
+
+---
+
+Integra o [portfólio de Thiago Oliveira](https://github.com/thiagoramos20042).
